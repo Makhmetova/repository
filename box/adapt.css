@@ -1,0 +1,14 @@
+@media screen and (max-width: 720px) {
+    .header-inner {
+     display: inline-block ;
+    }
+    .text {
+        display: inline-block;
+    }
+    .Medved {
+        display: inline-block;
+    }
+    .sune img {
+        display: none;
+    }
+}

@@ -1,0 +1,606 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ body {font-family: Verdana, sans-serif; margin:0}
+
+
+@media  (max-width: 720px) {
+  .container {
+    width: auto;
+    margin: 0 10px;
+  }
+
+
+}
+.welcome-inner-2 { 
+  box-shadow: 0px 0px 16px rgba(255,255,255,0.3);
+  background-color: black;
+  text-align: end;
+}
+
+.welcome-inner-2 a {
+    margin: 0px 40px;
+  display: inline-flex;
+  padding: 20px;
+  color: rgb(77, 77, 238);
+  text-decoration: none;
+}
+
+.welcome-inner-2 a :hover {
+ transition: cubic-bezier(0.23, 1, 0.320, 1);
+ color: rgb(141, 141, 187);
+}
+
+ .inform{
+  border-radius: 8px;
+  box-shadow: 0px 0px 16px rgba(255,255,255,0.3);
+    background-size: 1500px;
+    background-image: url(https://www.rfbr.ru/rffi/image?objectId=2078851); height: 600px;
+ }
+
+ .inform-inner {
+  text-align: center;
+  color: white;
+  border: 3px solid rgba(255, 255, 255,0.1);
+  padding: 24px;
+
+ }
+
+ .inform-inner h3{
+  color: white;
+   text-align: center;
+ }
+
+ .header {
+background-image: url(https://images11.popmeh.ru/upload/img_cache/c2d/c2d28e4da5140a91be4b88fc68749b8e_ce_1024x768x0x0_cropped_666x444.jpg);
+
+ }
+ .header-2 {
+   background-image: url(https://images11.popmeh.ru/upload/img_cache/c2d/c2d28e4da5140a91be4b88fc68749b8e_ce_1024x768x0x0_cropped_666x444.jpg);
+   height: 370px; width: 100%;
+    }
+
+ .header-inner {
+  display: flex;
+ }
+
+ .header img {
+   width: 500px;
+   height: 600px;
+  
+ }
+
+ .text h2 {
+  color: white;
+  text-align: center;
+  margin: 200px 150px 0px;
+  padding: 20px;
+  border: solid 2px rgb(206, 8, 8);
+ }
+
+ .morrison {
+   background-color: antiquewhite;
+  text-align: center;
+  margin: 0px 0px 0px ;
+ }
+ .morrison2 {
+   background-color: antiquewhite;
+   text-align: center;
+ }
+
+ .planeta {
+   background-color: black;
+   box-shadow: 0px 0px 16px rgba(255,255,255,0.3);
+ }
+
+ .planeta h3 {
+   text-align: center;
+  color: whitesmoke;
+  margin: 10px 0px;
+ }
+
+ .planeta img {
+  border-radius: 8px;
+  width: 300px;
+  height: 280px;
+  margin: 30px 30px;
+ }
+
+ .cardcard1 { 
+  display: inline-block;
+  border: solid rgba(219, 41, 41, 0);
+  border-top: 1,400;
+  margin: 60px;
+  }
+
+  .zvezda h3 {
+   padding: 20px 40px 20px;
+    color: white;
+    text-align: center;
+
+  }
+
+  .zvezda h2{
+    color: white;
+    text-align: center;
+  }
+
+  .zvezda {
+    background-image: url(https://images11.popmeh.ru/upload/img_cache/c2d/c2d28e4da5140a91be4b88fc68749b8e_ce_1024x768x0x0_cropped_666x444.jpg);
+  }
+
+.zvezda-inner  {
+  border: solid rgb(28, 62, 163);
+  position: relative;
+  
+}
+  
+.zvezda-inner img{
+  width: 1500px;
+
+}
+
+.Galaktika {
+  background-image: url(https://nplus1.ru/images/2021/04/30/49a537dda21c46e7d8691a61064d76e9.jpg); height: 100%; width: 100%;
+  
+}
+
+.Galaktika h3{
+  margin: 0px 0px 0px;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+
+
+.planeta2 img{
+   width: 900px;
+   text-align: center;
+}
+
+.planeta2-inner {
+  display: inline-flex;
+}
+
+.planeta2 h3{
+  color: white;
+  text-align: center;
+
+}
+
+.planeta2 {
+  background-color: black;
+}
+
+.planeta2 img{
+  width: 900px;
+  height: 700px;
+}
+
+            div.cosmos {
+               background: url(https://cdni.rt.com/russian/images/2017.04/article/58fe599bc3618843468b47c1.jpg);
+               box-sizing: border-box;
+               perspective: 950px;
+               overflow: hidden;
+               width: 100%;
+               background-size: 100%;
+            }
+            
+            .planets{
+                width: 90vw;
+                height: 35vw;
+                margin: 0px auto;
+                transform: rotateX(70deg);
+                transform-style: preserve-3d;
+            }
+            
+            .block1 {
+               transform-style: preserve-3d;
+               border: 1px solid gold;
+               border-radius: 50%;
+               position: absolute;
+               animation: orbe infinite linear;
+            }
+            
+            .orbit_sun {
+               top: calc(50% - 50px);
+               left: calc(50% - 50px);
+               animation: none;
+            }
+            
+            .orbit_mercury {
+               width: 130px;
+               height: 130px;
+               top: calc(50% - 65px);
+               left: calc(50% - 65px);
+               animation-duration: 6s;
+            }
+            
+            .orbit_venus {
+               width: 170px;
+               height: 170px;
+               top: calc(50% - 85px);
+               left: calc(50% - 85px);
+               animation-duration: 8s;
+            }
+            
+            .orbit_earth {
+               width: 230px;
+               height: 230px;
+               top: calc(50% - 115px);
+               left: calc(50% - 115px);
+               animation-duration: 10s;
+            }
+            
+            .orbit_moon {
+               width: 40px;
+               height: 40px;
+               top: calc(50% - 20px);
+               left: calc(50% - 140px);
+            }
+            
+            .orbit_mars {
+               width: 310px;
+               height: 310px;
+               top: calc(50% - 155px);
+               left: calc(50% - 155px);
+               animation-duration: 12s;
+            }
+            
+            .orbit_jupiter {
+               width: 400px;
+               height: 400px;
+               top: calc(50% - 200px);
+               left: calc(50% - 200px);
+               animation-duration: 14s;
+            }
+            
+            .orbit_saturn {
+               width: 550px;
+               height: 550px;
+               top: calc(50% - 275px);
+               left: calc(50% - 275px);
+               animation-duration: 16s;
+            }
+            
+            .orbit_uran {
+               width: 650px;
+               height: 650px;
+               top: calc(50% - 325px);
+               left: calc(50% - 325px);
+               animation-duration: 18s;
+            }
+            
+            .orbit_neptun {
+               width: 750px;
+               height: 750px;
+               top: calc(50% - 375px);
+               left: calc(50% - 375px);
+               animation-duration: 20s;
+            }
+            
+            .block2 {
+               position: absolute;
+               border: 1px solid white;
+               border-radius: 50%;
+               transform-style: preserve-3d;
+               animation: invert infinite linear;
+            }
+            
+            .sun {
+               width: 100px;
+               height: 100px;
+               background: url(https://cdn.discordapp.com/attachments/828872212227817487/885875517042085898/sun_stars.png);
+               background-size: cover;
+               transform: rotateX(-80deg);
+               animation: sun 90s infinite linear;
+            }
+            
+            .mercury {
+               width: 15px;
+               height: 15px;
+               top: 60px;
+               left: -8px;
+               background: url(https://cdn.discordapp.com/attachments/828872212227817487/885875596310220840/mercuri_solaric_system.png);
+               animation-duration: 6s;
+            }
+            
+            .venus {
+               width: 25px;
+               height: 25px;
+               top: 75px;
+               left: -15px;
+               background: url(https://cdn.discordapp.com/attachments/828872212227817487/885875734332203038/venus_solaryc_system.png);
+               animation-duration: 8s;
+            }
+            
+            .earth {
+               width: 30px;
+               height: 30px;
+               top: 100px;
+               left: -20px;
+               background: url(https://cdn.discordapp.com/attachments/828872212227817487/885876148712665118/earth_solaric_system.png);
+               animation-duration: 10s;
+            }
+            
+            .moon {
+               width: 8px;
+               height: 8px;
+               top: 16px;
+               left: -5px;
+               background: url(https://media.discordapp.net/attachments/828872212227817487/885876230002450452/jupiter_solaric_system.png?width=670&height=670);
+               animation-name: moon;
+               animation-duration: 10s;
+            }
+            
+            .mars {
+               width: 25px;
+               height: 25px;
+               top: 142px;
+               left: -15px;
+               background: url(https://cdn.discordapp.com/attachments/828872212227817487/885875593160319036/mars_solaric_system.png);
+               animation-duration: 12s;
+            }
+            
+            .jupiter {
+               width: 60px;
+               height: 60px;
+               top: 170px;
+               left: -30px;
+               background: url(https://cdn.discordapp.com/attachments/828872212227817487/885876230002450452/jupiter_solaric_system.png);
+               animation-duration: 14s;
+            }
+            
+            .saturn {
+               width: 90px;
+               height: 50px;
+               top: 250px;
+               left: -40px;
+               background: url(https://cdn.discordapp.com/attachments/828872212227817487/885876307127312394/saturn_solaric_system.png);
+               animation-duration: 16s;
+            }
+            
+            .uran {
+               width: 20px;
+               height: 20px;
+               top: 315px;
+               left: -10px;
+               background: url(https://cdn.discordapp.com/attachments/828872212227817487/885875666090885140/uran_solaric_system.png);
+               animation-duration: 18s;
+            }
+            
+            .neptun {
+               width: 20px;
+               height: 20px;
+               top: 365px;
+               left: -10px;
+               background: url(https://cdn.discordapp.com/attachments/828872212227817487/885875578115358720/neptune_solaric_system.png);
+               animation-duration: 20s;
+            }
+            
+            .block2 {
+               background-size: cover;
+            }
+            
+            @keyframes sun{
+               0%{transform:rotateX(-80deg) rotateZ(0deg);}
+               100%{transform:rotateX(-80deg) rotateZ(360deg);}
+            }
+            
+            @keyframes orbe {
+               0% {transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
+               100% {transform: rotateX(0deg) rotateY(0deg) rotateZ(360deg);}
+            }
+            
+            @keyframes invert {
+               0% {transform: rotateX(90deg) rotateY(360deg) rotateZ(0deg);}
+               100% {transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);}
+            }
+            
+            @keyframes moon {
+               0% {transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);}
+               100% {transform: rotateX(90deg) rotateY(-360deg) rotateZ(0deg);}
+            }
+
+            .footerR {
+               background-color: #464242;
+               color: white;
+               display: inline-flex;
+               width: 100%;
+           }
+           
+           .footerR {
+               font-size: 14px;
+           }
+           
+           .footer-verication p {
+               font-size: 14px;
+           }
+           
+           .footer-items {
+               display: inline-flex;
+               justify-content: space-between;
+               margin: 0;
+               padding-top: 17px;
+           }
+           
+           .footerR h1 {
+               font-size: 19px;
+           }
+         
+           
+           .footer-item-1 {
+               margin-left: 200px;
+               margin-right: 50px;
+           }
+           
+           .footer-verication {
+               background-color: #3e3e3e;
+               height: 50px;
+               color: white;
+               text-align: center;
+           }
+           
+           .footer-verication p {
+               height: 10px;
+           }
+           
+           .footer-item-2 {
+               margin-right: 50px;
+           }
+           
+           .footer-item-3 {
+               margin-right: 50px;
+           }
+           
+           .footer-item-4 {
+               margin-right: 50px;
+           }
+
+           .Medved {
+              display: inline-flex;
+              text-align: center;
+              padding: 20px ;
+              background-color: black;
+           }
+
+           .Medved h3 {
+              color: white;
+              padding: 20px 20px 20px ;
+              border: solid 1px rgb(19, 37, 95);
+           }
+
+           .Medved h2 {
+              color: rgb(45, 58, 241);
+             
+           }
+    
+
+           .sune {
+              display: inline-flex;
+              background-color: black;
+              padding: 20px;
+           }
+
+           .sune h3{
+              color: white;
+              text-align: center;
+              padding: 2px 20px 20px;
+           }
+
+           .sune img {
+              text-align: end;
+              width: 700px;
+              height: 500px;
+           }
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+ .mySlides {
+  display: none;
+} 
+
+/* Next & previous buttons */
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none; 
+ }
+ 
+
+/* Position the "next button" to the right */
+ .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} 
+
+/* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+} 
+
+/* Caption text */
+ .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+ }
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} 
+
+/* The dots/bullets/indicators */
+ .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+ .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} 
+
+     .planeta h1 {
+        color: white;
+        text-align: center;
+        padding: 20px;
+        background-color: black;
+     }     
+
+     .cosmos h1{
+        color: white;
+        text-align: center;
+        padding: 40px;
+     }
